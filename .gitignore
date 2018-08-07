@@ -1,2 +1,3 @@
 /.ipynb_checkpoints/*
 # uncomment me: /data/*
+/logs
