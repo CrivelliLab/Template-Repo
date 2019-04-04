@@ -1,6 +1,6 @@
 # Template Repo
 
-This repo serves as a template for research project conducted by student interns.
+This repo serves as a template for research projects conducted by student interns.
 The general structure of the repo is inspired by the paper,
 [Good enough practices in scientific computing](pcbi.1005510.pdf). We recommend
 you read through the paper as it provides good information about conducting
