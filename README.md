@@ -1,10 +1,19 @@
-# Example Repo
+# Template Repo
 
-This repo contains the following files:
+This repo serves as a template for research project conducted by student interns.
+The general structure of the repo is inspired by the paper,
+[Good enough practices in scientific computing](pcbi.1005510.pdf). We recommend
+you read through the paper as it provides good information about conducting
+computational research. This repo also serves as a guide of working with NERSC's
+computing resources at the lab, where to store your project material, and expectations
+about documentation to ensure that we promote reproducibility of research!
 
-- `some-analysis.ipynb` - A sample Jupyter Notebook.
-- `raw_python_file.py` - An example python file which scores a 10/10 via pylint. 
-- `transform_data.py` - A python file which transforms the data in the `/data` folder and places it in the `/output` folder.
-- `Makefile` - This Makefile can be used to transform the data using 1 shell command. Run `make` while in this directory to produce the output csv file.
+## Repo Structure
 
-In order to lint the python file, run the following command `pylint *.py`
+## Running jobs on NERSC's CORI
+
+## Working with Jupyter
+
+## Where to store code and data
+
+## Where to save project deliverables

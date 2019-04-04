@@ -1,3 +1,4 @@
-/.ipynb_checkpoints/*
-# uncomment me: /data/*
-/logs
+# Don't include the following
+.DS_Store
+__pycache__
+*.ipynb_checkpoints
