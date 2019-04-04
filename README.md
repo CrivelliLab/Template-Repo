@@ -15,32 +15,32 @@ here is a link to a great quick [tutorial](http://rogerdudler.github.io/git-guid
 Here are some of the highlights from the paper:
 
 ### Data Management
-- Data should be stored separately from your code (i.e within a `data/` folder)
+- Data should be stored separately from your code (i.e within a `data/` folder).
 - Make sure to save your raw data! Have one static copy among your group.
 - Use file types to your advantage!
   - Tabular? -> .csv
   - Not Tabular? -> .yaml, .json, .xml
   - Working with IO heavy work? Try HDF5
-- Make sure headers and labels are easily understood
+- Make sure headers and labels are easily understood.
   - DO: patient_height
   - DON'T: var_12, feature_6
-- Document your data processing steps in a README
+- Document your data processing steps in a README.
 
 ### Software
-- Keep uncompiled source code in one place (i.e. within a `src/` folder)
+- Keep uncompiled source code in one place (i.e. within a `src/` folder).
 - Provide a description of a program at the start of its code.
 - Decompose your program into functions!
   - Functional programming is very useful and languages like Julia take advantage of this for use in
     scientific computing.
   - Don't copy and paste code if you can write a function instead!
-- Give functions and variables meaningful names
+- Give functions and variables meaningful names.
   - Rule of thumb? The greater the scope, the more descriptive the name should be.
 - DONT! Control how your program behaves by commenting and uncommenting blocks of code.
-- Always provide a dummy dataset for testing
-- Program outputs should be stored in one place i.e. within an `output/` folder)
+- Always provide a dummy dataset for testing.
+- Program outputs should be stored in one place (i.e. within an `output/` folder).
 
 ### Documentation
-- Use Jupyter notebooks for tutorials, and to showcase results!
+- Use Jupyter notebooks for tutorials, experiments, and to showcase results!
 - Have a good project README with information about setting up the project and how to run it.
 - File names should work as documentation too!
 
@@ -80,11 +80,11 @@ by future researchers.
 
 ## Where to save project deliverables
 During your time at the lab, depending on your program, you will be required to
-write presentations and papers for deliverables. We want to be able to show the
-next years interns your amazing work, and have something for them to reference when working
+make presentations and write papers as deliverables. We want to be able to show
+next year's interns your amazing work, and have something for them to reference when working
 on their own projects.
 
-We have created shared folders on Google Drive where you will be able to save copies
+We created some shared folders on Google Drive where you will be able to save copies
 of your work. Links to these folders will be provided when you arrive.
 
 ## Working with Jupyter
@@ -96,4 +96,4 @@ that you have a Jupyter notebook for your project to provide a tour of your work
 The more the merrier!
 
 For more information on how to use Jupyter and notebooks, we recommend looking through
-one of our previous student's presentation on using [Jupyter on Cori](https://github.com/shahzeb1/jupyter-talk).
+one of our previous student's presentation on how to use [Jupyter on Cori](https://github.com/shahzeb1/jupyter-talk).
