@@ -68,13 +68,13 @@ Since the repository is shared with the WeFold project, we've made two directori
 for ongoing work for protein-related and MVP-related projects respectively.
 These two directories are named: `Projects_Proteins/` and `Projects_MVP/`
 
+> Note: Do to inode limits on Cori's filesystem, we recommend data that is stored in m1532 to
+> be compressed as tars or zips. Any IO intensive work should be conducted in your $SCRATCH folder.
+> To access your SCRATCH directory use ||:cd $SCRATCH 
+
 Within these folders feel free to make directories for your own use. There is also
 three special directories we are maintaining as a way of archiving final versions
 of projects. The follow explains the purpose of each:
-
-> Note: Do to inode limits on Cori's filesystem, we recommend data that is stored in m1532 to
-> be compressed as tars or zips. Any IO intensive work should be conducted in your $SCRATCH folder.
-> To access your SCRATCH directory us ||:cd $SCRATCH 
 
 - `_datasets/` : contains final versions of datasets created during your project
 which can be later used by future researchers.
