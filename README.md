@@ -46,7 +46,7 @@ Here are some of the highlights from the paper:
 
 ### Codebase Management
 - Take full advantage of all the features of Git!
-- Remember: Small commit with descriptive push messages make version control easier!
+- Remember: Small commits with descriptive push messages make version control easier!
 - Communicate with team when changes are made to keep everyone up-to-date.
 
 ## Getting Started on NERSC's CORI
@@ -99,7 +99,7 @@ using git-flavored markdown. Its highly recommended (cough cough please do it!)
 that you have a Jupyter notebook for your project to provide a tour of your work.
 The more the merrier!
 
-You can log in to JupyterLab using your NERSC account [here](https://jupyter.nersc.gov)
+You can log in to JupyterLab using your NERSC account [here](https://jupyter.nersc.gov).
 
 For more information on how to use Jupyter and notebooks, we recommend looking through
 one of our previous student's presentation on how to use [Jupyter on Cori](https://github.com/shahzeb1/jupyter-talk).
