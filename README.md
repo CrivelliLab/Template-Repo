@@ -70,7 +70,7 @@ These two directories are named: `Projects_Proteins/` and `Projects_MVP/`
 
 > Note: Do to inode limits on Cori's filesystem, we recommend data that is stored in m1532 to
 > be compressed as tars or zips. Any IO intensive work should be conducted in your $SCRATCH folder.
-> To access your SCRATCH directory use ||:cd $SCRATCH 
+> To access your SCRATCH directory use ||:cd $SCRATCH
 
 Within these folders feel free to make directories for your own use. There is also
 three special directories we are maintaining as a way of archiving final versions
@@ -98,6 +98,8 @@ way of building reproducible projects thanks to its ability to embed documentati
 using git-flavored markdown. Its highly recommended (cough cough please do it!)
 that you have a Jupyter notebook for your project to provide a tour of your work.
 The more the merrier!
+
+You can log in to JupyterLab using your NERSC account [here](https://jupyter.nersc.gov)
 
 For more information on how to use Jupyter and notebooks, we recommend looking through
 one of our previous student's presentation on how to use [Jupyter on Cori](https://github.com/shahzeb1/jupyter-talk).
