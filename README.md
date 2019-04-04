@@ -72,6 +72,10 @@ Within these folders feel free to make directories for your own use. There is al
 three special directories we are maintaining as a way of archiving final versions
 of projects. The follow explains the purpose of each:
 
+> Note: Do to inode limits on Cori's filesystem, we recommend data that is stored in m1532 to
+> be compressed as tars or zips. Any IO intensive work should be conducted in your $SCRATCH folder.
+> To access your SCRATCH directory us ||:cd $SCRATCH 
+
 - `_datasets/` : contains final versions of datasets created during your project
 which can be later used by future researchers.
 - `_models/` : contains final versions of models which can be easily executed or imported
