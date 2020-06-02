@@ -51,7 +51,7 @@ Here are some of the highlights from the paper:
 
 ## Getting Started on NERSC's CORI
 After getting access to NERSC, take some time to read through NERSC's documentation
-on their site [here](https://www.nersc.gov/users/getting-started/).
+on their site [here](https://docs.nersc.gov/getting-started/).
 There you'll learn how to navigate Cori and how to submit your first job!
 
 The [run.sbatch](run.sbatch) in this repo serves as an example of a CORI batch job file.
